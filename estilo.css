@@ -1,0 +1,44 @@
+*{font-family:'Times New Roman',Times,serif;}
+body{background:linear-gradient(#ff4654 7%,#111823 100%);background-repeat:no-repeat;}
+.navbar{display:flex;justify-content:space-between;align-items:center;background-color:#111823;padding:10px 20px;}
+.nav-links{list-style:none;display:flex;}
+.nav-links li{margin:0 15px;}
+.nav-links a{text-decoration:none;color:#ffffff;font-weight:bold;display:flex;align-items:center;}
+.nav-links a:hover{color:#ff4654;}
+.nav-links img{width:35px;height:35px;}
+.navbar-toggler{display:none;background:none;border:none;color:white;font-size:24px;cursor:pointer;}
+.nav-links.show{display:flex;}
+.foto{width:65px;}
+.foto1{width:76px;}
+.foto2{width: 1407px;}
+.foto3{width:65px;}
+.foto4{width:83px;}
+.texto1{color:#ffffff;}
+.texto2{color:#ffffff;font-style:italic;}
+.titulo{text-align: center;color:white;}
+.main{color: white;}
+.cuadrado{width:1406px;height:100px;position:fixed;}
+.logo{width:210px;height:154px;border-radius:50%;}
+.producto{display:flex;align-items:center;color:white;}
+.producto div{text-align:center;background-color:rgba(255, 255, 255, 0.1);border-radius:10px;padding:15px;transition:all 0.3s;}
+.producto img{margin-left:10px;display:inline-block;vertical-align:middle;}
+.prodcuto div:hover{transform: scale(1.05);}
+.producto1{margin-left:35px;}
+.producto2{margin-left:35px;}
+footer{text-align:center;padding:20px 0;background-color:#ff4654;color:white;position:relative;bottom:0;width:100%;}
+
+@media(max-width:768px){.navbar{flex-direction:column;align-items:flex-start;}.nav-links{display:none;flex-direction:column;width:100%;}
+.nav-links li{margin:10px 0;}.navbar-toggler{display:block;}}
+@media(max-width:480px){.foto,.foto1{width: 50px;}h1{font-size:1.5rem;}}
+
+.contacto{background-color:rgba(255, 255, 255, 0.1);border-radius:10px;padding:60px;margin:0 20px;max-width:7000px;color:white;box-shadow:0 4px 20px rgba(0, 0, 0, 0.2);}
+.contacto h2{text-align:center;margin-bottom:20px;color:#ff4654;}
+.contacto p{margin: 10px 0;}
+.contacto label{display:block;margin:10px 0 5px;font-weight:bold;}
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto textarea{width:100%;padding:10px;border:1px solid#ccc;border-radius:5px;margin-bottom:15px;font-size:16px;background-color:#fff;}
+.contacto textarea{resize:vertical;height:100px;}
+.contacto .btn {display:inline-block;background-color:#ff4654;color:white;padding:10px 20px;border:none;border-radius:5px;cursor:pointer;transition:0.3s;}
+.contacto .btn:hover{background-color:#e03e4d;}
+
